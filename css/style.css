@@ -1,0 +1,44 @@
+body{
+      font: normal 75% 'Titillium Web', sans-serif;
+      background: #B0C44D;
+      text-align:center;
+      color:white;
+      margin:0;
+}
+
+canvas {
+    display:block;
+    background: #B0C44D;
+    position: fixed;
+    z-index: -1;
+}
+
+h1{
+      font-size:3em;
+      margin-top:1em;
+      color:white;
+}
+
+.chart-container{
+  margin-top:-5px;
+  text-align:center;
+}
+
+.chart-container svg {
+  margin-top:20px;
+}
+
+line.timeline{
+  stroke-width:3px;
+  stroke: #183251;
+}
+
+circle.dot {
+      fill:#84C6AB;
+}
+
+
+#timeline {
+      margin-top: 30px;
+      
+}
